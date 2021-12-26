@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="70" tileheight="70" nextobjectid="30">
+ <tileset firstgid="1" name="planet1_tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2" tilecount="156" columns="12">
+  <image source="../../images/planet1_tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <tileset firstgid="157" name="metal_tile_sheet" tilewidth="70" tileheight="70" tilecount="98" columns="14">
+  <image source="../../images/metal_tile_sheet.png" width="980" height="490"/>
+ </tileset>
+ <tileset firstgid="255" name="dark_metal_tile_sheet" tilewidth="70" tileheight="70" tilecount="98" columns="14">
+  <image source="../../images/dark_metal_tile_sheet.png" width="980" height="490"/>
+ </tileset>
+ <tileset firstgid="353" name="objects" tilewidth="132" tileheight="92" tilecount="4" columns="0">
+  <tile id="0">
+   <image width="132" height="92" source="../../images/p1_stand.png"/>
+  </tile>
+  <tile id="1">
+   <image width="124" height="68" source="../../images/ship1.png"/>
+  </tile>
+  <tile id="2">
+   <image width="124" height="90" source="../../images/ship2.png"/>
+  </tile>
+  <tile id="3">
+   <image width="124" height="72" source="../../images/ship3.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="357" name="foliage" tilewidth="151" tileheight="291" tilecount="62" columns="0">
+  <tile id="0">
+   <image width="42" height="60" source="../../images/foliagePack_001.png"/>
+  </tile>
+  <tile id="1">
+   <image width="42" height="35" source="../../images/foliagePack_002.png"/>
+  </tile>
+  <tile id="2">
+   <image width="28" height="54" source="../../images/foliagePack_003.png"/>
+  </tile>
+  <tile id="3">
+   <image width="102" height="287" source="../../images/foliagePack_004.png"/>
+  </tile>
+  <tile id="4">
+   <image width="102" height="207" source="../../images/foliagePack_005.png"/>
+  </tile>
+  <tile id="5">
+   <image width="86" height="208" source="../../images/foliagePack_006.png"/>
+  </tile>
+  <tile id="6">
+   <image width="122" height="208" source="../../images/foliagePack_007.png"/>
+  </tile>
+  <tile id="7">
+   <image width="88" height="211" source="../../images/foliagePack_008.png"/>
+  </tile>
+  <tile id="8">
+   <image width="109" height="214" source="../../images/foliagePack_009.png"/>
+  </tile>
+  <tile id="9">
+   <image width="151" height="211" source="../../images/foliagePack_010.png"/>
+  </tile>
+  <tile id="10">
+   <image width="68" height="235" source="../../images/foliagePack_011.png"/>
+  </tile>
+  <tile id="11">
+   <image width="86" height="208" source="../../images/foliagePack_012.png"/>
+  </tile>
+  <tile id="12">
+   <image width="122" height="208" source="../../images/foliagePack_013.png"/>
+  </tile>
+  <tile id="13">
+   <image width="88" height="211" source="../../images/foliagePack_014.png"/>
+  </tile>
+  <tile id="14">
+   <image width="109" height="214" source="../../images/foliagePack_015.png"/>
+  </tile>
+  <tile id="15">
+   <image width="151" height="211" source="../../images/foliagePack_016.png"/>
+  </tile>
+  <tile id="16">
+   <image width="68" height="235" source="../../images/foliagePack_017.png"/>
+  </tile>
+  <tile id="17">
+   <image width="52" height="45" source="../../images/foliagePack_018.png"/>
+  </tile>
+  <tile id="18">
+   <image width="52" height="45" source="../../images/foliagePack_019.png"/>
+  </tile>
+  <tile id="19">
+   <image width="38" height="36" source="../../images/foliagePack_020.png"/>
+  </tile>
+  <tile id="20">
+   <image width="20" height="36" source="../../images/foliagePack_021.png"/>
+  </tile>
+  <tile id="21">
+   <image width="42" height="138" source="../../images/foliagePack_022.png"/>
+  </tile>
+  <tile id="22">
+   <image width="42" height="138" source="../../images/foliagePack_023.png"/>
+  </tile>
+  <tile id="23">
+   <image width="35" height="134" source="../../images/foliagePack_024.png"/>
+  </tile>
+  <tile id="24">
+   <image width="41" height="268" source="../../images/foliagePack_025.png"/>
+  </tile>
+  <tile id="25">
+   <image width="41" height="268" source="../../images/foliagePack_026.png"/>
+  </tile>
+  <tile id="26">
+   <image width="103" height="291" source="../../images/foliagePack_027.png"/>
+  </tile>
+  <tile id="27">
+   <image width="102" height="194" source="../../images/foliagePack_028.png"/>
+  </tile>
+  <tile id="28">
+   <image width="102" height="211" source="../../images/foliagePack_029.png"/>
+  </tile>
+  <tile id="29">
+   <image width="102" height="287" source="../../images/foliagePack_030.png"/>
+  </tile>
+  <tile id="30">
+   <image width="102" height="190" source="../../images/foliagePack_031.png"/>
+  </tile>
+  <tile id="31">
+   <image width="102" height="207" source="../../images/foliagePack_032.png"/>
+  </tile>
+  <tile id="32">
+   <image width="42" height="138" source="../../images/foliagePack_033.png"/>
+  </tile>
+  <tile id="33">
+   <image width="42" height="138" source="../../images/foliagePack_034.png"/>
+  </tile>
+  <tile id="34">
+   <image width="35" height="134" source="../../images/foliagePack_035.png"/>
+  </tile>
+  <tile id="35">
+   <image width="102" height="190" source="../../images/foliagePack_036.png"/>
+  </tile>
+  <tile id="36">
+   <image width="86" height="187" source="../../images/foliagePack_037.png"/>
+  </tile>
+  <tile id="37">
+   <image width="122" height="172" source="../../images/foliagePack_038.png"/>
+  </tile>
+  <tile id="38">
+   <image width="88" height="183" source="../../images/foliagePack_039.png"/>
+  </tile>
+  <tile id="39">
+   <image width="109" height="191" source="../../images/foliagePack_040.png"/>
+  </tile>
+  <tile id="40">
+   <image width="151" height="192" source="../../images/foliagePack_041.png"/>
+  </tile>
+  <tile id="41">
+   <image width="68" height="193" source="../../images/foliagePack_042.png"/>
+  </tile>
+  <tile id="42">
+   <image width="86" height="187" source="../../images/foliagePack_043.png"/>
+  </tile>
+  <tile id="43">
+   <image width="122" height="172" source="../../images/foliagePack_044.png"/>
+  </tile>
+  <tile id="44">
+   <image width="88" height="183" source="../../images/foliagePack_045.png"/>
+  </tile>
+  <tile id="45">
+   <image width="109" height="191" source="../../images/foliagePack_046.png"/>
+  </tile>
+  <tile id="46">
+   <image width="151" height="192" source="../../images/foliagePack_047.png"/>
+  </tile>
+  <tile id="47">
+   <image width="68" height="193" source="../../images/foliagePack_048.png"/>
+  </tile>
+  <tile id="48">
+   <image width="98" height="55" source="../../images/foliagePack_049.png"/>
+  </tile>
+  <tile id="49">
+   <image width="139" height="56" source="../../images/foliagePack_050.png"/>
+  </tile>
+  <tile id="50">
+   <image width="150" height="58" source="../../images/foliagePack_051.png"/>
+  </tile>
+  <tile id="51">
+   <image width="138" height="38" source="../../images/foliagePack_052.png"/>
+  </tile>
+  <tile id="52">
+   <image width="68" height="54" source="../../images/foliagePack_053.png"/>
+  </tile>
+  <tile id="53">
+   <image width="79" height="39" source="../../images/foliagePack_054.png"/>
+  </tile>
+  <tile id="54">
+   <image width="82" height="59" source="../../images/foliagePack_055.png"/>
+  </tile>
+  <tile id="55">
+   <image width="68" height="54" source="../../images/foliagePack_056.png"/>
+  </tile>
+  <tile id="56">
+   <image width="79" height="39" source="../../images/foliagePack_057.png"/>
+  </tile>
+  <tile id="57">
+   <image width="82" height="59" source="../../images/foliagePack_058.png"/>
+  </tile>
+  <tile id="58">
+   <image width="68" height="55" source="../../images/foliagePack_059.png"/>
+  </tile>
+  <tile id="59">
+   <image width="79" height="39" source="../../images/foliagePack_060.png"/>
+  </tile>
+  <tile id="60">
+   <image width="82" height="60" source="../../images/foliagePack_061.png"/>
+  </tile>
+  <tile id="61">
+   <image width="42" height="50" source="../../images/foliagePack_062.png"/>
+  </tile>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt000KgCAQBtC6b9l5vG0bAxdF0Z8jvAezEp2PYRwGAAAAAADgLfPYOkFftnmlam6LGVJMZReO/lWUXZl2cqQg2fhXbh3goVxVT/JO9SJS9jd733nr7M7R+ZVeX+QBIK4VF94QcA==
+  </data>
+ </layer>
+ <layer name="Mid" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztkkEOhCAMRb3rbJgjTTyIB/BiLtSENFBgbAGT95K/MtL/CssCAAAAAAAAAAAAAABwEqJ8B3d5wi+KN8EpPT2CmGUZeXbsZ42Xg5Ya5L1q3z3vonRPqY65Xqk327vzGqXkNGKnVh5v6TSTxyb6yMzuoXWvdfnHQ+7ticPe6LFe8zWP1PfaWbl/rR16pOWNtL6nt+bTcaeeDndGd7FwmN1H65XzsPZJnavNK/WySssuZs4BWS7Ngg==
+  </data>
+ </layer>
+ <layer name="Foreground" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1EsOgjAQgGE4LLDT46hx10voGhNO4Ak8iZC0oZm0hD4l8f+SpmRsy3RGbRoAAAAAAAAAAJDq2q7PXetfh5Wa6zTo0Tnqd9HzeZ57K6b0s9x3ou5FPH94julv7+mtsuK+NVPEe0P2D9b32ObLZ2HyTv2viL3bwxr/ahJzLkep7fJ7uwXuMetfIj7q2CjiMbULzSmUqb28gyTvkvPdtXufehc7b1fvXfb0MaYOo8hHnuH6fG/Nt/ZujSO6F1qb6pPhjLcnXvoeNesEoI4vITQ9PQ==
+  </data>
+ </layer>
+ <objectgroup name="Ground">
+  <object id="5" name="polyground" x="30.303" y="3430.3">
+   <polyline points="0,0 -24.2424,-1260.61 248.485,-1260.61 247.788,-1219.18 181.515,-1188.18 178.515,-1048.85 320.182,-1048.88 321.212,-909.545 528.879,-909.576 528.939,-841.242 561.576,-841.242 582.606,-839.697 595,-839.697 600,-836.364 736.364,-839.394 742.424,-909.091 951.515,-906.061 951.515,-975.758 1148.48,-975.758 1157.58,-912.121 1500,-909.091 1509.09,-975.758 1572.73,-975.758 1730.3,-972.727 1787.88,-978.788 1796.97,-1118.18 1857.58,-1121.21 1863.64,-1187.88 1921.21,-1184.85 3342.42,-1193.94 3396.97,-1190.91 3400,-1118.18 3460.61,-1121.21 3463.64,51.5152 1354.55,-236.364 0,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Player"/>
+ <objectgroup name="Ship"/>
+ <objectgroup name="Edges">
+  <object id="28" name="Right" x="3490" y="0" width="10" height="3542"/>
+  <object id="29" name="Left" x="0" y="0" width="10" height="3543"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="70" tileheight="70" nextobjectid="30">
+ <tileset firstgid="1" name="planet1_tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2" tilecount="156">
+  <image source="../../images/planet1_tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <tileset firstgid="157" name="metal_tile_sheet" tilewidth="70" tileheight="70" tilecount="98">
+  <image source="../../images/metal_tile_sheet.png" width="980" height="490"/>
+ </tileset>
+ <tileset firstgid="255" name="dark_metal_tile_sheet" tilewidth="70" tileheight="70" tilecount="98">
+  <image source="../../images/dark_metal_tile_sheet.png" width="980" height="490"/>
+ </tileset>
+ <tileset firstgid="353" name="objects" tilewidth="132" tileheight="92" tilecount="4">
+  <tile id="0">
+   <image width="132" height="92" source="../../images/p1_stand.png"/>
+  </tile>
+  <tile id="1">
+   <image width="124" height="68" source="../../images/ship1.png"/>
+  </tile>
+  <tile id="2">
+   <image width="124" height="90" source="../../images/ship2.png"/>
+  </tile>
+  <tile id="3">
+   <image width="124" height="72" source="../../images/ship3.png"/>
+  </tile>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0UENADAIBEFQUAf1LxMDffKAZiY5AZuLAAAAAACY6WTvdOh4ddxPOrb+AQAAAJ0K3dwGUA==
+  </data>
+ </layer>
+ <layer name="Mid" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztlMENwjAMRTMQYgDW6QFWqjoD4swBMUDZACZgAo7kkIgoatLE2IlV/Sd9VYIk9ourGgMAAAAAAAAAAAAAANgSV5szc25NDX7M7vl2z5fNs2BfuM7vfTD2VQtn7Xl9iRictTXOY084S8M8PtHvh4oz/N5e87gY/u/V3ebUUsLVk8jY2GEUTCskHf7xCOea+v/oIj2LWo/4nfRJvbM7F2mHUo+l3rVFY/9TEA6PHvc6ZULxaDmHXO+lLlQHyuw5PFL14u9nyoF6T9wOlPqUsyTWUj04z6dm2IDHEKR3LxwO2n1yfaU8uH2Wzs3VW+uLKzV3oTlfTo3Usw==
+  </data>
+ </layer>
+ <layer name="Foreground" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0k0KgCAQgNHuf4UOUmuDNrXsBJ2kTZEMRqmjI/Q9kEBifu06AAAAAAAAAGjTqhhrUYxlmVtzJpa52UdbuS33gfbN1gUY+3v/iDN4x1rs2x3P7yTu3Xnnsiu6c5RyzV72IGn08pS79u5ze/HrDu0+5MseU+bgRD1vMWJmHor95ZSUmqMv9G8K/83sCvG2h3vtPuS7Lz0nAPUdly804w==
+  </data>
+ </layer>
+ <objectgroup name="Ground">
+  <object id="5" name="polyground" x="30.303" y="3430.3">
+   <polyline points="0,0 -27.2727,-490.909 172.727,-487.879 175.758,-415.152 251.515,-418.182 251.515,-484.848 318.182,-487.879 321.212,-554.545 387.879,-557.576 393.939,-624.242 457.576,-624.242 460.606,-769.697 600,-769.697 600,-836.364 736.364,-839.394 742.424,-909.091 951.515,-906.061 951.515,-975.758 1148.48,-975.758 1157.58,-912.121 1500,-909.091 1509.09,-975.758 1572.73,-975.758 1569.7,-839.394 1721.21,-836.364 1730.3,-972.727 1787.88,-978.788 1796.97,-1118.18 1857.58,-1121.21 1863.64,-1187.88 1921.21,-1184.85 1869.7,-1209.09 1854.55,-1233.33 1857.58,-1260.61 1918.18,-1260.61 2081.82,-1260.61 2081.82,-1312.12 2090.91,-1324.24 2115.15,-1324.24 2130.3,-1312.12 2133.33,-1257.58 3124.24,-1257.58 3130.3,-1309.09 3139.39,-1318.18 3136.36,-1324.24 3166.67,-1327.27 3178.79,-1315.15 3178.79,-1257.58 3400,-1257.58 3472.03,-1259.33 3480.79,-1186.03 3459.42,-1127.94 3396.97,-1190.91 3400,-1118.18 3460.61,-1121.21 3463.64,51.5152 1354.55,-236.364 0,0"/>
+  </object>
+  <object id="17" name="polyground" x="1890.91" y="1751.52">
+   <polyline points="0,0 48.4848,69.697 1487.88,63.6364 1539.39,0"/>
+  </object>
+  <object id="18" name="polyground" x="2115.15" y="1824.24">
+   <polyline points="0,0 0,54.5455 33.3333,57.5758 42.4242,-3.0303"/>
+  </object>
+  <object id="19" name="polyground" x="3160.61" y="1821.21">
+   <polyline points="0,0 45.4545,0 42.4242,57.5758 6.06061,60.6061"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Player">
+  <object id="6" gid="353" x="1116.58" y="2364.3" width="66" height="92"/>
+ </objectgroup>
+ <objectgroup name="Ship">
+  <object id="8" gid="354" x="974.394" y="2393.67" width="124" height="68"/>
+ </objectgroup>
+ <objectgroup color="#40a4df" name="Water">
+  <object id="23" name="Water" x="1610" y="2450" width="140" height="152"/>
+ </objectgroup>
+ <objectgroup name="Edges">
+  <object id="28" name="Right" x="3490" y="0" width="10" height="3542"/>
+  <object id="29" name="Left" x="0" y="0" width="10" height="3543"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="24" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Panel" tilewidth="32" tileheight="32" tilecount="9">
+  <image source="../images/metalPanel_blueCorner.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="10" name="Panel 2" tilewidth="32" tileheight="32" tilecount="9">
+  <image source="../images/metalPanel_blue.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="19" name="metalPanel" tilewidth="32" tileheight="32" tilecount="9">
+  <image source="../images/metalPanel.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="28" name="Back" tilewidth="256" tileheight="256" tilecount="1">
+  <image source="../images/darkPurple.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="29" name="Glass" tilewidth="32" tileheight="32" tilecount="9">
+  <image source="../images/glassPanel.png" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="38" name="glassPanel_projection" tilewidth="32" tileheight="32" tilecount="9">
+  <image source="../images/glassPanel_projection.png" width="96" height="96"/>
+ </tileset>
+ <layer name="Background" width="40" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzt1DERAAAIxDCE4F8nEpi4Z0jW7q0CuNHPO8CV9N/8D0hJ/23rA+D4AaU=
+  </data>
+ </layer>
+ <layer name="Panel" width="40" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztzrkNACAMwED+R7TsPyvZAIpEQmBL7s85uiEvj81BngdHA1+Ss9IFHz58+PDhw4cPH77HfVVuSncD368tGU0Iuw==
+  </data>
+ </layer>
+ <layer name="Viewer" width="40" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztzskNACAMxMA0whnov0XSwiKUD7bk/5jRi0pcxVuir8dDfOLDhw8fPnz48OHD96nP4yW+E3101wFYnSQZ
+  </data>
+ </layer>
+</map>
